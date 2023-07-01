@@ -1,0 +1,14 @@
+/*.html
+    Cache-Control: max-age=3600
+
+/*.js
+    Cache-Control: max-age=31536000,immutable
+
+/*.svg
+    Cache-Control: max-age=86400
+
+https://*.:project.pages.dev/*
+    X-Robots-Tag: noindex
+
+https://:project.pages.dev/*
+    X-Robots-Tag: noindex
